@@ -90,7 +90,6 @@ public class Countries {
 
     public void print() {
 
-
         if (getCapitalName() == null && getPopulation() != 0) {
             System.out.println(getName() + ": "
                     + getSquare() + Constants.SQUARE
@@ -119,42 +118,6 @@ public class Countries {
                     + getCapitalName() + "; "
                     + getCapitalPopulation() + Constants.POPULATION);
         }
-
-/*
-
-
-
-
-
-
-
-        if (hasFullInfo) {
-            System.out.println(getName() + ": "
-                    + getSquare() + Constants.SQUARE
-                    + getPopulation() + Constants.POPULATION
-                    + getCapitalName() + "; "
-                    + getCapitalPopulation() + Constants.POPULATION);
-        }
-        else if (noCapitalName && !noInfoAboutPopulation) {
-            System.out.println(getName() + ": "
-                    + getSquare() + Constants.SQUARE
-                    + getPopulation() + Constants.POPULATION);
-        }
-        else if (noInfoAboutPopulation) {
-            if (noCapitalName)
-                System.out.println(getName() + ": "
-                        + getSquare() + Constants.SQUARE
-                        + Constants.UNKNOWN_POPULATION);
-            else
-                System.out.println(getName() + ": "
-                        + getSquare() + Constants.SQUARE
-                        + Constants.UNKNOWN_POPULATION
-                        + getCapitalName() + "; "
-                        + Constants.UNKNOWN_POPULATION);
-        }
-
- */
-
 
     }
 
